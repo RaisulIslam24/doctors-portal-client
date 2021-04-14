@@ -11,13 +11,13 @@ const Contact = () => {
                <div className="col-md-9 mx-auto">
                    <form action="">
                        <div className="form-group">
-                           <input type="text" className="form-control" placeholder="Email Address *"/>
+                           <input type="text" className="form-control mb-3" placeholder="Email Address *"/>
                        </div>
                        <div className="form-group">
-                           <input type="text" className="form-control" placeholder="Subject *"/>
+                           <input type="text" className="form-control mb-3" placeholder="Subject *"/>
                        </div>
                        <div className="form-group">
-                           <textarea name="" className="form-control" id="" cols="30" rows="10" placeholder="Message *"></textarea>
+                           <textarea name="" className="form-control mb-3" id="" cols="30" rows="10" placeholder="Message *"></textarea>
                        </div>
                        <div className="form-group text-center">
                            <button type="button" className="btn btn-primary"> Submit </button>

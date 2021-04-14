@@ -22,3 +22,7 @@
     height: 550px;
     transform: translateY(-130px);
 }
+
+.appointment{
+    z-index: 1;
+}
